@@ -7,11 +7,15 @@ import {AngularFireAuthModule} from 'angularfire2/auth';
 import { AppRoutingModule } from './app-routing.module';
 import { environment } from "../environments/environment";
 import { AppComponent } from './app.component';
+import { SigninComponent } from './signin/signin.component';
+import { PostComponent } from './post/post.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SigninComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
