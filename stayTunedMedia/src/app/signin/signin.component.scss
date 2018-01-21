@@ -1,0 +1,35 @@
+mat-card{
+    #google-button {
+    background-color: transparent;
+    background-image: url('/assets/images/google_signin_dark.png');
+    width: 15rem;
+    height: 3.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &:active{
+            background-image: url('/assets/images/google_signin_dark_pressed.png');
+        }
+    }
+    background-color:#009688;
+    color: white;
+    mat-card-title{
+        padding: 15px 30px;
+        h2 {
+            margin: 0;
+            font-weight: normal;
+        }
+    }
+
+    mat-card-content{
+        padding: 30px;
+        font-size:18px;
+        button {
+            color: #800000;
+            background-color: white;
+            font-size: 18px;
+            margin:20px;
+            padding: 5px 20px;
+        }
+
+    }
+}

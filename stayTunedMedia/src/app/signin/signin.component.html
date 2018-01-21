@@ -1,3 +1,9 @@
-<p>
-  signin works!
-</p>
+<mat-card> 
+    <mat-card-title>
+      <h2>Welcome</h2>
+    </mat-card-title>
+    <mat-card-content fxLayout="column" fxLayoutAlign="none center">
+        <p>If you are a member of Stay Tuned Media, sign in here</p>
+        <button id="google-button" mat-button (click)="authService.signInWithGoogle()"></button>
+    </mat-card-content>
+  </mat-card>
